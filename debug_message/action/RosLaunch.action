@@ -1,0 +1,20 @@
+# goal definition
+string package
+string filename
+#optional. eg arg_name:=value
+string arguments
+#minimum delay in ms between consecutive feedback calls so that no feedback msgs are lost (in case client is slow to fetch them)
+#by default (0), means no delay is taken
+int32 min_feedback_period
+---
+# result definition
+
+#to know if we've got all feedbacks
+int32 numFeedbacks
+string error
+---
+# feedback
+#to know if we miss any feedback
+int32 counter
+string state_name
+string feedback
