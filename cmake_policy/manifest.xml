@@ -1,0 +1,13 @@
+<package>
+  <description brief="cmake_policy">
+ cmake_policy
+
+  </description>
+  <author>Daniel Pinyol</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/launch_service</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="roslib"/>
+</package>
