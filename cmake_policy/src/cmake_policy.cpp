@@ -2,6 +2,6 @@
 #include <ros/console.h>
 int main()
 {
-  std::cout << ROSCONSOLE_PACKAGE_NAME << std::endl;
+  ROS_ERROR("hello");
   return 0;
 }
